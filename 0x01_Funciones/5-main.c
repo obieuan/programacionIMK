@@ -10,9 +10,9 @@ int main(void)
 
     resultado = div(6,5);
     printf("El resultado de la division es: %d\n",resultado);
-    resultado = div(0,5);
+    resultado = div(3,5);
     printf("El resultado de la division es: %d\n",resultado);
-    resultado = div(-5,5);
+    resultado = div(9,5);
     printf("El resultado de la division es: %d\n",resultado);
     return 0;
 }
