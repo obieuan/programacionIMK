@@ -1,16 +1,14 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * Calculadora
+ * Este programa suma dos numeros
  * Return: 0 if succeed
  */
 int main(void)
 {
-    int suma;
-    int res;
-
+    int suma = 0;
+    
     suma = add(12,10);
-    res = resta(12,10);
-    printf("El valor de la suma es: %d\nEl valor de la resta es: %d\n",suma,res);
+    printf("El valor de la suma es: %d\n",suma);
     return 0;
 }
