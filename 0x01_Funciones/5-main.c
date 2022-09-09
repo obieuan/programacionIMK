@@ -6,9 +6,13 @@
  */
 int main(void)
 {
-    int res = 0;
+    int resultado = 0;
 
-    res = resta(12,10);
-    printf("El valor de la resta es: %d\n",res);
+    resultado = div(6,5);
+    printf("El resultado de la division es: %d\n",resultado);
+    resultado = div(0,5);
+    printf("El resultado de la division es: %d\n",resultado);
+    resultado = div(-5,5);
+    printf("El resultado de la division es: %d\n",resultado);
     return 0;
 }
