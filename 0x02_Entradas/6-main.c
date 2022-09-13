@@ -11,7 +11,8 @@ int main(void)
     int n2=0;
 
     /*Aquí va tu código*/
+
     resultado = div(n1,n2);
-    printf("El resultado de la divisiones: %f\n",resultado);
+    printf("El resultado de la division es: %f\n",resultado);
     return 0;
 }

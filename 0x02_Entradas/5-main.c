@@ -11,6 +11,7 @@ int main(void)
     int n2=0;
 
     /*Aquí va tu código*/
+
     resultado = mul(n1,n2);
     printf("El resultado de la multiplicacion es: %d\n",resultado);
     return 0;
