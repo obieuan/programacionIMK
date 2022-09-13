@@ -1,6 +1,6 @@
 <p><span style="font-size: 1rem;">Recursos adicionales </span></p>
 <ul>
-<li><a href="https://www.freecodecamp.org/news/the-c-beginners-handbook/#introduction-to-c">The C beginners handbook</a><em> (lectura recomendada)</em></li>
+<li><a href="https://www.freecodecamp.org/news/the-c-beginners-handbook/#introduction-to-c">The C beginners handbook</a></li>
 <li><a href="https://www.tutorialspoint.com/cprogramming/c_header_files.htm" style="background-color: #ffffff; font-size: 1rem;">C - Header files</a></li>
 <li><a href="https://cplusplus.com/reference/cstdio/printf/">The printf reference</a></li>
 <li><a href="https://cplusplus.com/reference/cstdio/scanf/">The scanf reference</a></li>
@@ -11,7 +11,7 @@
 <li>Comprender el flujo de un programa</li>
 </ul>
 <h2 class="gap"><strong>Tasks</strong></h2>
-<h5><span>Tus tareas se suben a tu Github en el siguiente orden</span></h5>
+<h5><span>Tus tareas se suben a tu repositorio de Github en el siguiente orden</span></h5>
 <ul>
 <li>GitHub repository: <code>programacionIMK</code></li>
 <li>Directory: <code>0x03_Entradas</code></li>
@@ -39,4 +39,3 @@
 </ul>
 <p style="margin-left: 30px;">Resultado esperado: </p>
 <p style="margin-left: 30px;"><img src="https://i.ibb.co/sFgn90N/descargar-3.png" alt="" /></p>
-<h5><strong>Se envía un enlace a la carpeta del repositorio 0x02_Entradas</strong></h5>
