@@ -1,4 +1,4 @@
-#include "main.h"
+#include "../main.h"
 /**
  * add - Resta dos numeros 
  * @a: primer numero
