@@ -1,5 +1,10 @@
 #include <stdio.h> 
-
+/**
+ * Este programa pide una letra
+ * al usuario y la imprime en
+ * la terminal
+ * Return: 0 if succeed
+ */
 int main() 
 { 
   char letra;

@@ -1,5 +1,8 @@
 #include <stdio.h> 
-
+/**
+ * Este programa suma dos numeros
+ * Return: 0 if succeed
+ */
 int main() 
 { 
   int numero;

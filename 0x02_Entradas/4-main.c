@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * Este programa suma dos numeros
+ * Este programa resta dos numeros
  * Return: 0 if succeed
  */
 int main(void)
@@ -15,7 +15,6 @@ int main(void)
     
     printf("Ingrese un numero:\n");
     scanf("%d",&n2);
-    
 
     res = resta(n1,n2);
     printf("El valor de la resta es: %d\n",res);
