@@ -18,11 +18,11 @@ int main()
     printf("Ingresa el volumen a envasar:\n");
     scanf("%f", &volumen);
 
-    if (volumen == 500)
+    if (volumen = 500)
     {
         costo = 1.006;
     }
-    else if (volumen == 1000)
+    else if (volumen = 1000)
     {
         costo = 1.6816;
     }
