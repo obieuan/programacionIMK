@@ -42,7 +42,7 @@ int main()
         area(volumen, densidad, costo);
         break;
         case 'b': 
-        densidad = 0.8;
+        densidad = 0.5;
         area(volumen, densidad, costo);
         break;
         case 'c': 
