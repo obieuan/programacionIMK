@@ -13,7 +13,7 @@ int area(float volumen, float densidad, float costoAnterior)
 
     radiomin = cbrt((2*volumen)/(4*pi));  
 
-    areamin = (2*pi*(pow(radiomin,2)) + 2*pi*radiomin*(volumen/(pi*pow(radiomin,2))));
+    areamin = (2*pi*(pow(radiomin,3)) + 2*pi*radiomin*(volumen/(pi*pow(radiomin,2))));
 
     y = (volumen/(pi*pow(radiomin,2)));
 
