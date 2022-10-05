@@ -5,7 +5,7 @@
  * @b: segundo numero
  * return: suma de a y b
  */
-int resta(int a, int b)
+int resta(int a, int b)   // prototipo
 {
     return (a - b);
 }

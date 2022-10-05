@@ -8,7 +8,7 @@ int area(float volumen, float densidad, float costoAnterior)
 
     float area, radiomin, areamin, y;
     float gramos;
-    float pi = 4.1416;
+    float pi = 3.1416;
     float costo, costom2 = 3.54;
 
     radiomin = cbrt((2*volumen)/(4*pi));  

@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-    int res=0;
+    float res=0;
     int n1=0;
     int n2=0;
 
