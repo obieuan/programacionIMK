@@ -4,12 +4,12 @@
 int main(void)
 {
     int base, exponente,resultado;
-    printf("Ingrese la base");
-    scanf("%d",base);
-    printf("Ingrese el exponente");
-    scanf("%d",exponente);
+    printf("Ingrese la base\n");
+    scanf("%d",&base);
+    printf("Ingrese el exponente\n");
+    scanf("%d",&exponente);
 
     resultado = potencia(base,exponente);
-    printf("%d elevado a la potencia %d es: %d", base, exponente, resultado);
+    printf("%d elevado a la potencia %d es: %d\n", base, exponente, resultado);
     return(0);
 }
