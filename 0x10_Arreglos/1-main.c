@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 
 int main()
 {
@@ -14,7 +14,7 @@ int main()
      */
     for (x=0; x<4;x++)
     {
-        printf("Enter number %d \n", (x+1));
+        printf("Ingrese un numero %d \n", (x+1));
         scanf("%d", &num[x]);
     }
     for (x=0; x<4;x++)
