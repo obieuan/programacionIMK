@@ -2,27 +2,32 @@
 
 int main()
 {
-    int avg = 0;
-    int sum = 0;
-    int x = 0;
+    int suma;
+    int promedio;
+    int numeros[255];
+    char letras[30];
+    int letra = 97;
 
-    /* Array- declaration – length 4*/
-    int num[4];
-
-    /* We are using a for loop to traverse through the array
-     * while storing the entered values in the array
-     */
-    for (x=0; x<4;x++)
+    for(int i = 0; i<255; i++)
     {
-        printf("Ingrese un numero %d \n", (x+1));
-        scanf("%d", &num[x]);
+        numeros[i]=0;
     }
-    for (x=0; x<4;x++)
+    for(int i = 0; i<sizeof(letras); i++)
     {
-        sum = sum+num[x];
+        letras[i] = letra;
+        letra++;
     }
 
-    avg = sum/4;
-    printf("Average of entered number is: %d", avg);
+     for(int i = 0; i<sizeof(letras); i++)
+    {
+        printf("Pos %d : %c \n",i,letras[i]);
+    }
+
+    printf("En la posicion 1 hay: %d\n", numeros[1]);
+    printf("En la posicion 10 hay: %c\n", letras[10]);
+
+    printf("El arreglo letras tiene tamano %d \n", (int)sizeof(letras));
+
+
     return 0;
 }
