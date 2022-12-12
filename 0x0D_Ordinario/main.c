@@ -2,14 +2,13 @@
 #include <time.h>
 #include <stdio.h>   // printf, scanf
 #include <stdlib.h>  // rand
-#include <unistd.h>  // getpid
 
 // Cosas que puedes modificar c:
-#define COLUMNAS 7
-#define FILAS 7
-#define CASILLA_OCULTA ' '
-#define MINA 'X'
-#define CANTIDAD_MINAS 9  // Si colocas más minas que la cantidad de espacios disponibles (COLUMNAS * FILAS), fallará
+#define COLUMNAS 9
+#define FILAS 8
+#define CASILLA_OCULTA '3'
+#define MINA 'M'
+#define CANTIDAD_MINAS 10  // Si colocas más minas que la cantidad de espacios disponibles (COLUMNAS * FILAS), fallará
 
 // Cosas que no tendrías que modificar a menos que quieras adaptarlo a tus ideas :v
 void generarMinas(char minas[FILAS][COLUMNAS])
@@ -63,10 +62,14 @@ int main()
     srand(time(NULL));              // Inicializa los números aleatorios para que siempre varíe el orden de las minas
 
     char tablero[FILAS][COLUMNAS];
+    char tablero_usuario[FILAS][COLUMNAS];
 
     inicializarTablero(tablero);     // Inicializar tablero con espacios   
     generarMinas(tablero);           // Aquí se generan aleatoriamente las minas
 
-    imprimirTablero(tablero);        // Esta Función imprime el tablero, solo le pasas el arreglo que quieras imprimir de tamaño FILAS, COLUMNAS
-
+    //imprimirTablero(tablero);        // Esta Función imprime el tablero, solo le pasas el arreglo que quieras imprimir de tamaño FILAS, COLUMNAS
+    while(1)
+    {
+        //aqui va el codigo que tienen que escribir
+    }
 }
